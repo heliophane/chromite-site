@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "vazirmatn";
+    src: url("vazirmatn/Vazirmatn-Regular.woff") format("woff");
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.xyzcontainerwhatever {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.vazirmatn {
+    font-family: vazirmatn;
+}
+
+@media (prefers-color-scheme: dark){
+    body {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+
+        
+    }
+}
